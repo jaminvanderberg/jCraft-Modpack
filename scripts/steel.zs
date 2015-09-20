@@ -249,12 +249,12 @@ MiningLaser.removeOre( oreOutput );
 //  Minechem  //
 // ========== //
 
-for item in ingotOre.items {
-	Synthesiser.removeRecipe( item );
-}
-for item in dustOre.items {
-	Synthesiser.removeRecipe( item );
-}
+//for item in ingotOre.items {
+//	Synthesiser.removeRecipe( item );
+//}
+//for item in dustOre.items {
+//	Synthesiser.removeRecipe( item );
+//}
 
-Synthesiser.addRecipe( [ minechem, minechem2 ], ingotOutput, true, 300 );
-Synthesiser.addRecipe( [ null, minechem, minechem2 ], dustOutput, true, 300 );
+//Synthesiser.addRecipe( [ minechem, minechem2 ], ingotOutput, true, 300 );
+//Synthesiser.addRecipe( [ null, minechem, minechem2 ], dustOutput, true, 300 );

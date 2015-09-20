@@ -79,7 +79,7 @@ mods.immersiveengineering.Crusher.removeRecipe( dustIE );
 		
 for item in oreOre.items {
 	mods.railcraft.RockCrusher.removeRecipe( item );
-	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput ], [ 100 ] );
+	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput * 2 ], [ 100 ] );
 }
 
 // MC

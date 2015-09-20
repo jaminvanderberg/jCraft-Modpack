@@ -127,6 +127,11 @@ mods.immersiveengineering.Crusher.addRecipe( dustOutput * 8, oreDense, 14000, du
 
 mods.immersiveengineering.Crusher.removeRecipe( dustIE );
 
+for i, item in orefull {
+	mods.railcraft.RockCrusher.removeRecipe( item );
+	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput * 2 ], [ 100 ] );
+}
+
 // MC
 if ( runMC > 0 ) {
 	mods.magneticraft.Crusher.removeRecipe( oreOutput );
@@ -184,7 +189,7 @@ for item in dustOre.items {
 	Synthesiser.removeRecipe( item );
 }
 
-Synthesiser.addRecipe( [ minechem ], ingotOutput, true, 300 );
-Synthesiser.addRecipe( [ null, minechem ], dustOutput, true, 300 );
+Synthesiser.addRecipe( [ minechem * 16 ], ingotOutput, true, 300 );
+Synthesiser.addRecipe( [ null, minechem * 16 ], dustOutput, true, 300 );
 
 

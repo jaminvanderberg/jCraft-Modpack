@@ -257,7 +257,7 @@ mods.thermalexpansion.Furnace.addRecipe( 1600, dustAOBD, ingotOutput );
 		
 for item in oreOre.items {
 	mods.railcraft.RockCrusher.removeRecipe( item );
-	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput ], [ 100 ] );
+	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput * 2 ], [ 100 ] );
 }
 
 // MC
@@ -347,6 +347,6 @@ for item in dustOre.items {
 	Synthesiser.removeRecipe( item );
 }
 
-Synthesiser.addRecipe( [ minechem ], ingotOutput, true, 300 );
-Synthesiser.addRecipe( [ null, minechem ], dustOutput, true, 300 );
+Synthesiser.addRecipe( [ minechem * 16 ], ingotOutput, true, 300 );
+Synthesiser.addRecipe( [ null, minechem * 16 ], dustOutput, true, 300 );
 

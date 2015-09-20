@@ -85,7 +85,7 @@ mods.thermalexpansion.Furnace.addRecipe( 1600, dustAOBD, ingotOutput );
 		
 for item in oreOre.items {
 	mods.railcraft.RockCrusher.removeRecipe( item );
-	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput ], [ 100 ] );
+	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput * 2 ], [ 100 ] );
 }
 
 // MC
