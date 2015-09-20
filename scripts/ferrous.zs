@@ -127,7 +127,7 @@ mods.immersiveengineering.Crusher.addRecipe( dustOutput * 8, oreDense, 14000, du
 
 mods.immersiveengineering.Crusher.removeRecipe( dustIE );
 
-for i, item in orefull {
+for item in oreOre.items {
 	mods.railcraft.RockCrusher.removeRecipe( item );
 	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput * 2 ], [ 100 ] );
 }

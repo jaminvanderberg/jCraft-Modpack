@@ -82,8 +82,9 @@ mods.thermalexpansion.Furnace.removeRecipe( flakes );
 
 dustDirty.displayName = "Dirty Pulverized Mithril";
 
+mods.railcraft.RockCrusher.removeRecipe( oreOutput );
+
 for item in oreOre.items {
-	mods.railcraft.RockCrusher.removeRecipe( item );
 	mods.railcraft.RockCrusher.addRecipe( item, false, false, [ dustOutput * 2 ], [ 100 ] );
 }
 
