@@ -1,0 +1,4 @@
+Total amount of conflicted biome ids: 1
+IDs in conflict:
+
+9 is asked by: Sky (net.minecraft.world.biome.BiomeGenEnd), Sky (chylex.hee.world.biome.BiomeGenHardcoreEnd)

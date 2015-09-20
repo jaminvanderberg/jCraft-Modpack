@@ -1,0 +1,50 @@
+<!-- 
+Entries in this file take precedence over the values in the core file
+ -->
+<OreDictionaryPreferences>
+
+  <preference oreDictionary="oreCopper">
+    <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="0" />
+  </preference>
+  
+  <preference oreDictionary="oreAluminum">
+    <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="0" />
+  </preference>
+  
+  <preference oreDictionary="dustAluminum">
+    <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="5" />
+  </preference>
+
+  <preference oreDictionary="dustUranium">
+    <itemStack modID="Magneticraft" itemName="item.dust_uranium" itemMeta="0" />
+  </preference>  
+  
+  <preference oreDictionary="dustYellorium">
+    <itemStack modID="Magneticraft" itemName="item.dust_uranium" itemMeta="0" />
+  </preference>
+  
+  <preference oreDictionary="dustSulfur">
+    <itemStack modID="Railcraft" itemName="dust" itemMeta="1" />
+  </preference>
+  
+  <preference oreDictionary="oreSulfur">
+    <itemStack modID="Railcraft" itemName="ore" itemMeta="0" />
+  </preference>
+  
+  <preference oreDictionary="ingotSteel">
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="16" />
+  </preference>
+  
+  <preference oreDictionary="gemSapphire">
+    <itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="38" />
+  </preference>
+  
+  <preference oreDictionary="gemRuby">
+    <itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="37" />
+  </preference>
+  
+  <preference oreDictionary="gemPeridot">
+    <itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="39" />
+  </preference>  
+  
+</OreDictionaryPreferences>
