@@ -1,6 +1,8 @@
-Total amount of free potion ids: C:\MultiMC\MultiMC\instances\jCraft\minecraft\config\AntiIDConflict\potions\avaibleIDs.txt
+Total amount of free potion ids: C:\MultiMC\instances\jCraft1\minecraft\config\AntiIDConflict\potions\avaibleIDs.txt
 List of free potion ids:
 0
+24
+25
 26
 27
 28
@@ -17,8 +19,6 @@ List of free potion ids:
 126
 129
 130
-131
-132
 136
 137
 138
