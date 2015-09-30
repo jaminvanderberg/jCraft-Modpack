@@ -69,7 +69,7 @@ val ingotIron = <minecraft:iron_ingot>;
 val ore_dustIron = <ore:dustIron>;
 val dustIron = <ThermalFoundation:material:0>;
 val ore_dustCoal = <ore:dustCoal>;
-val dustCoal = <ThermalFoundation:material:3>;
+val dustCoal = <ThermalFoundation:material:2>;
 val ore_dustCoke = <ore:dustCoke>;
 
 // =========== //

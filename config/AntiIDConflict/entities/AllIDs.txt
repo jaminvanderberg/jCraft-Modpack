@@ -56,7 +56,7 @@
 55 is Occupied by Slime(net.minecraft.entity.monster.EntitySlime)
 56 is Occupied by Ghast(net.minecraft.entity.monster.EntityGhast)
 57 is Occupied by PigZombie(net.minecraft.entity.monster.EntityPigZombie)
-58 is Occupied by Enderman(chylex.hee.entity.mob.EntityMobEnderman)
+58 is Occupied by Enderman(net.minecraft.entity.monster.EntityEnderman)
 59 is Occupied by CaveSpider(net.minecraft.entity.monster.EntityCaveSpider)
 60 is Occupied by Silverfish(net.minecraft.entity.monster.EntitySilverfish)
 61 is Occupied by Blaze(net.minecraft.entity.monster.EntityBlaze)
@@ -198,7 +198,7 @@
 197 is Avaible
 198 is Avaible
 199 is Avaible
-200 is Occupied by EnderCrystal(chylex.hee.entity.block.EntityBlockEnderCrystal)
+200 is Occupied by EnderCrystal(net.minecraft.entity.item.EntityEnderCrystal)
 201 is Avaible
 202 is Avaible
 203 is Avaible
